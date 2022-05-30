@@ -763,8 +763,7 @@ body{
         flex-direction: column;
     }
     .banner_p{
-        width: 50%;
-        z-index: -1;
+        width: 80%;
         background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg");
         background-repeat: no-repeat;
         background-size: 100%;
@@ -776,7 +775,6 @@ body{
     .intro{
         margin-bottom: 20px;
         padding-top: 32px;
-        z-index: 2;
     }
     .banner h1,.paybanner h1{
         width: 100%;
