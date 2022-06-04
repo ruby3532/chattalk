@@ -57,6 +57,7 @@ sub{
 
 body{
     font-family: 'Noto Sans TC', sans-serif;
+
 }
 .top{
     color: #FFFFFF;
@@ -894,15 +895,11 @@ body{
         border-radius: 0 0 0 200px;
         position: relative;
     }
-    .intro{
-        position: absolute;
-        top: 5%;
-    }
     
     .number ul{
         width: 100%;   
         justify-content: flex-start;
-        overflow: hidden;
+        overflow-x: auto;
     }
     .number li{
         max-width: 100%;
